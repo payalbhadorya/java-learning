@@ -10,6 +10,9 @@ public class Student {
         System.out.println(semester);
         double cgpa = 8.2;
         System.out.println(cgpa);
+        String money = "$";
+        System.out.println(money);
+
 
     }
 }
