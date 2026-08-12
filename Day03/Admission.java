@@ -10,15 +10,17 @@ public class Admission {
         int marks = input.nextInt();
         input.nextLine();
         
-        System.out.println("Enter your age!!");
-        int age = input.nextInt();
-
+        
         if( marks >= 90){
             System.out.println("Excellent marks!! you are in mr :)");
         }
+        
+        System.out.println("Enter your age!!");
+        int age = input.nextInt();
 
-        if (marks >= 60 && age >= 18){
-            System.out.println("eligible, com on in beachhhhhhhhhhhh in my clggggggggggggg");
+
+            if (marks >= 60 && age >= 18){
+                System.out.println("eligible, com on in beachhhhhhhhhhhh in my clggggggggggggg");
         }
         else {
             System.out.println("Not eligible get out hellll nahhhhhhhhhhhh");
