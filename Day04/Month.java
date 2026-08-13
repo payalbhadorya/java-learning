@@ -44,7 +44,7 @@ public class Month {
                 break;
 
             case 9:
-                System.out.println("Septumber");
+                System.out.println("September");
                 break;
 
             case 10:
@@ -61,7 +61,6 @@ public class Month {
 
             default:
                 System.out.println("Invalid month");
-                break;
         }
 
     
